@@ -216,3 +216,30 @@ export function InvoicesTableSkeleton() {
     </div>
   );
 }
+
+export function EditInvoiceSkeleton() {
+  return (
+    <div className="rounded-md bg-gray-50 p-4 md:p-6  w-full">
+      <div className={`${shimmer} mb-4`}>
+        <div className="mb-2 block text-sm  rounded-md font-medium bg-gray-100 py-2 w-20">
+        </div>
+        <div className="mt-2 rounded-md py-6 border-gray-200 bg-white">
+        </div>
+      </div>
+
+      <div className={` mb-4`}>
+        <div className="mb-2 block text-sm rounded-md font-medium bg-gray-100 py-2 w-20">
+        </div>
+        <div className="relative mt-2 rounded-md py-6 border-gray-200 bg-white"></div>
+      </div>
+      <div className={` mb-4`}>
+        <div className="mb-2 block text-sm rounded-md font-medium bg-gray-100 py-2 w-20">
+        </div>
+        <div className="rounded-md border-gray-200 bg-white py-6">
+        </div>
+      </div>
+      
+    </div>
+      
+    )
+}
